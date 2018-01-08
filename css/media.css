@@ -1,0 +1,69 @@
+@media all and (max-width: 768px){
+  [class*="col-"]{
+    width: 200%;
+  }
+  .images { /* da el ancho a las imagenes  */
+    width: 750px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #logo { /* da el ancho al logo de maternar  */
+    width: 100%
+  }
+  .center-menu { /* desaparece el menu de varias opciones  */
+    display: none;
+  }
+  .menu { /* hace visible el menu de hamburguesa */
+    background-image: url(../assets/images/menu02.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 150px;
+    float: right;
+    padding: 0px;
+  }
+  .logo { /* da el ancho al section que contiene el logo de maternar  */
+    width: 50%;
+  }
+
+  .eraser { /* desaparece a la section que contiene el menu de varias opciones  */
+    display: none;
+  }
+
+  .row { /* da el ancho a los rows al 100% */   
+    width: 100%;
+  }
+
+  .name-1 { /* da el ancho a la imagen del tagline  */
+    background-size: 760px;
+  }
+
+  .tagline { /* alinea el texto del tagline */
+    text-align: center;
+  }
+
+  .responsive{ /*Da el ancho a la section que contiene la imagen de name
+    para que no se desborde  */
+    width: 768px;
+  }
+
+  .footer-1 { /* da el ancho a la section que contiene el copyrigth
+    evita que se desborde */
+    width: 768px;
+  }
+
+  .space { /*quita el margen de la imagen papi.jpg  */
+    margin-left: 0;
+  }
+
+  .content-1 { /*da el ancho a la section de que hacemos para que
+    no se desborde el texto  */
+    width: 760px;
+  }
+
+  .container { /* Mantiene el ancho del container evita que se
+     desproporcionen los sections en menos de 768px */
+    width: 768px;
+  }
+}

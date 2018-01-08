@@ -1,0 +1,89 @@
+
+#logo {
+  width: 80%;
+}
+
+#tagline{
+  color: white;
+  font-size: 65px;
+  font-family: "Gill Sans", sans-serif;
+  display: inline-block;
+  background-color: rgba(200, 63, 113, 0.5)
+}
+
+.header {
+  background: #c8eee2;
+}
+
+.center-menu {
+  text-align: center;
+  text-decoration: none;
+  color: #c83f71;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.menu {
+  padding-top: 30px;
+}
+
+.name-1 {
+  background-image: url(../assets/images/maternar.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  text-align: center;
+  background-size: 900px;
+
+}
+
+.name {
+  background: #fbd6d7;
+  height: 600px;/*#333a4e;*/
+}
+
+.content {
+  background: #a4d5a6;
+}
+
+.images {
+  background: #a4d5a6;
+}
+
+.footer {
+  background: #c8eee2;
+  height: 100px;
+  text-align: center;
+  color: #c83f71;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+.m-0 {
+  margin-top: 30px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #c83f71;
+  border: none;
+  border-radius: 10px;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+  width: auto;
+  padding: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+a:hover {
+  color: purple;
+}
